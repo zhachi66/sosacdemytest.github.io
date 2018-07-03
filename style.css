@@ -29,7 +29,8 @@
 #myCarousel.carousel.slide {
     width: 50%; 
     height: 50%;
-    max-width: 400px; !important
+    max-width: 50px; !important
+    max-height: 20px; !important
 }
 
 
@@ -47,7 +48,9 @@ h2
 
 a
 {
+  margin: 10px;
   font-size: 18px;
+  color:  #77777d; 
 }
    #head
   {
@@ -104,15 +107,5 @@ a
     color: #fff; 
     background-color: #009688;
   }
-
-.navbar-inverse
-  {
-background-color: "red";
-     text-align: right;
-
-
-
-  }
-
 
 
