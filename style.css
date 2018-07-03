@@ -26,13 +26,15 @@
    width:70%;
    
 }*/
-#myCarousel.carousel.slide {
-    width: 50%; 
-    height: 50%;
-    max-width: 50px; !important
-    max-height: 20px; !important
+ 
+#carouselExampleIndicators
+{
+  margin: auto;
+    width: 300px; 
+    height: 200px;
+    max-width: 400px; !important
+    max-height:50px; !important
 }
-
 
 .imgtext
 {
@@ -62,7 +64,7 @@ a
 #headImg
 {
    border-radius: 25px;
-  height:195px;
+  height:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -83,7 +85,7 @@ a
     
   #section2 {
     padding-top: 80px; 
-    height:850px; 
+    height:1300px; 
     color: #77777d; 
  /*   background-color: #673ab7;*/
   }
