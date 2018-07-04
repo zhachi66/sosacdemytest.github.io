@@ -1,13 +1,13 @@
  body {
     position: relative; 
-    background-image: url("background.jpg");
+    background-image: url("pic/backgroundmobile.jpg");
     background-size: 100% 100%;
   }
   @media screen and (max-width: 600px) {
    body {
     position: relative; 
     background-image: url("pic/backgroundmobile.jpg");
-    background-size: 100% 100%;
+
   }
 }
 
@@ -137,7 +137,7 @@ margin-bottom: 500px;
     height:100%;
     color: #77777d; 
   }
-    @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
 #section3 {
   padding-top:120px;
 margin-bottom: 50px;
@@ -152,7 +152,7 @@ margin-bottom: 50px;
   
   @media screen and (max-width: 600px) {
 #section4 {
-padding-top:120px;
+padding-top:500px;
   }
 }
 
