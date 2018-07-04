@@ -3,6 +3,15 @@
     background-image: url("background.jpg");
     background-size: 100% 100%;
   }
+  @media screen and (max-width: 600px) {
+   body {
+    position: relative; 
+    background-image: url("pic/backgroundmobile.jpg");
+    background-size: 100% 100%;
+  }
+}
+
+
   .affix {
     top:0;
     width: 100%;
@@ -12,12 +21,12 @@
     margin-bottom: 0px;
   }
 
-/*.container
+.container
 {
     display: flex;
-    flex-direction:row-reverse;
+    /*flex-direction:row-reverse;*/
     justify-content:center;
- } */
+ } 
 
 /*#myCarousel
 {
@@ -54,21 +63,41 @@ a
   font-size: 18px;
   color:  #77777d; 
 }
-   #head
+
+    @media screen and (max-width: 600px) {
+a {
+  margin: auto;
+  font-size: 24px;
+  }
+}
+
+a:hover{
+  background-color: yellow;
+}
+
+h4:hover{
+  background-color: yellow;
+}
+
+  #head
   {
-/*     background-image: url("1.jpg");
-    background-size: 100% 100%;*/
-     color: red;
+   
       height:200px;
 }
-#headImg
+ #headImg
 {
    border-radius: 25px;
   height:100%;
+  width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+}
+@media screen and (max-width: 600px) {
+#headImg {
+  height: 90%;
+    width: 100%;
+  }
 }
 
   .affix ~ .container-fluid {
@@ -78,36 +107,68 @@ a
     
   #section1 {
     padding-top:80px;
-    height:600px;
+    height:100%;
     color: #77777d; 
    /* background-color: #1E88E5;*/
   }
-    
+  @media screen and (max-width: 600px) {
+#section1 {
+padding-top:120px;
+margin-bottom: -120px;
+  }
+}
+
   #section2 {
     padding-top: 80px; 
-    height:1300px; 
-    color: #77777d; 
+    height:100%; 
+    color: #77777d;
+    margin-bottom: 100px 
  /*   background-color: #673ab7;*/
   }
+    @media screen and (max-width: 600px) {
+#section2 {
+ padding-top: 120px;
+margin-bottom: 500px;
+  }
+}
     
   #section3 {
     padding-top:80px;
-    height:500px;
+    height:100%;
     color: #77777d; 
   }
+    @media screen and (max-width: 600px) {
+#section3 {
+  padding-top:120px;
+margin-bottom: 50px;
+  }
+}
     
-  #section41 {
-    padding-top:50px;
-    height:700px;
+  #section4 {
+    height:100%;
     color: #77777d; 
  /*   background-color: #00bcd4;*/
   }
-    
-  #section42 {
-    padding-top:50px;
-    height:500px;
-    color: #fff; 
-    background-color: #009688;
+  
+  @media screen and (max-width: 600px) {
+#section4 {
+padding-top:120px;
   }
+}
+
+label
+{
+
+   padding-left: 100%;
+}
+
+@media screen and (max-width: 600px) {
+#info {
+
+
+
+
+  }
+}
 
 
