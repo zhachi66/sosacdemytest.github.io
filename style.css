@@ -13,7 +13,7 @@
 
 
   .affix {
-    top:0;
+    top:0px;
     width: 100%;
     z-index: 9999 !important;
   }
@@ -26,6 +26,7 @@
     display: flex;
     /*flex-direction:row-reverse;*/
     justify-content:center;
+
  } 
 
 /*#myCarousel
@@ -39,10 +40,10 @@
 #carouselExampleIndicators
 {
   margin: auto;
-    width: 50%; 
+    width: 100%; 
     height: 200px;
     max-width: 400px; !important
-    max-height:50px; !important
+    max-height:200px; !important
 }
 
 .imgtext
@@ -75,9 +76,17 @@ a:hover{
   background-color: yellow;
 }
 
+    @media screen and (max-width: 600px) {
+h4 {
+ 
+  font-size: 14px;
+  }
+}
+
 h4:hover{
   background-color: yellow;
 }
+
 
   #head
   {
@@ -111,12 +120,12 @@ h4:hover{
     color: #77777d; 
    /* background-color: #1E88E5;*/
   }
-/*  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
 #section1 {
 padding-top:120px;
-margin-bottom: -900px;
+/*margin-bottom: -900px;*/
   }
-}*/
+}
 
   #section2 {
     /*padding-top: 80px; */
@@ -126,12 +135,12 @@ margin-bottom: -900px;
     /*margin-bottom: 100px */
  /*   background-color: #673ab7;*/
   }
-/*    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
 #section2 {
- margin-top: 1000px;
+ padding-top: 120px;
 /*margin-bottom: 500px;*/
-  /*}*/
-/*}*/
+}
+}
     
   #section3 {
     /*padding-top:80px;*/
@@ -139,25 +148,25 @@ margin-bottom: -900px;
     width: 90%;
     color: #77777d; 
   }
-/* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
 #section3 {
- margin-top:900px;
+ padding-top:120px;
 /*margin-bottom: 50px;*/
-  }
-/*}*/
+ }
+}
     
   #section4 {
     /*height:100%;*/
-    width: 30%;
+    width: 90%;
     color: #77777d; 
  /*   background-color: #00bcd4;*/
   }
   
-/*  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
 #section4 {
-margin-top:200px;
+padding-top:120px;
   }
-}*/
+}
 
 label
 {
