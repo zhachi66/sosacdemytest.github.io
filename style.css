@@ -1,11 +1,11 @@
  body {
-    position: relative; 
+    position: relative;
     background-image: url("pic/backgroundmobile.jpg");
     background-size: 100% 100%;
   }
   @media screen and (max-width: 600px) {
    body {
-    position: relative; 
+    position: relative;
     background-image: url("pic/backgroundmobile.jpg");
 
   }
@@ -27,20 +27,20 @@
     /*flex-direction:row-reverse;*/
     justify-content:center;
 
- } 
+ }
 
 /*#myCarousel
 {
 
-  
+
    width:70%;
-   
+
 }*/
- 
+
 #carouselExampleIndicators
 {
   margin: auto;
-    width: 100%; 
+    width: 100%;
     height: 200px;
     max-width: 400px; !important
     max-height:200px; !important
@@ -53,16 +53,30 @@
   width: 200px;
   height: 200px;
 }
+
+.imgul
+{
+  border-radius: 50%;
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
 h2
 {
   font-weight: bold;
+
+}
+h3
+{
+  color: #2b2c85;
 }
 
 a
 {
   margin: 10px;
   font-size: 18px;
-  color:  #77777d; 
+  color:  #77777d;
 }
 
     @media screen and (max-width: 600px) {
@@ -73,12 +87,12 @@ a {
 }
 
 a:hover{
-  background-color: yellow;
+  background-color: #c8d2f4;
 }
 
     @media screen and (max-width: 600px) {
 h4 {
- 
+
   font-size: 14px;
   }
 }
@@ -90,7 +104,7 @@ h4:hover{
 
   #head
   {
-   
+
       height:200px;
 }
  #headImg
@@ -113,11 +127,11 @@ h4:hover{
     position: relative;
     top: 50px;
   }
-    
+
   #section1 {
     /*height:100%;*/
     width: 90%;
-    color: #77777d; 
+    color: #77777d;
    /* background-color: #1E88E5;*/
   }
   @media screen and (max-width: 600px) {
@@ -141,12 +155,12 @@ padding-top:120px;
 /*margin-bottom: 500px;*/
 }
 }
-    
+
   #section3 {
     /*padding-top:80px;*/
     /*height:100%;*/
     width: 90%;
-    color: #77777d; 
+    color: #77777d;
   }
  @media screen and (max-width: 600px) {
 #section3 {
@@ -154,14 +168,14 @@ padding-top:120px;
 /*margin-bottom: 50px;*/
  }
 }
-    
+
   #section4 {
     /*height:100%;*/
     width: 90%;
-    color: #77777d; 
+    color: #77777d;
  /*   background-color: #00bcd4;*/
   }
-  
+
   @media screen and (max-width: 600px) {
 #section4 {
 padding-top:120px;
@@ -177,10 +191,29 @@ label
 @media screen and (max-width: 600px) {
 #info {
 
-
-
-
   }
 }
 
+ #read {
+     background:none!important;
+     color:#77777d;
+     /*text-decoration: underline;*/
+     border:none;
+     padding:0!important;
+     font: inherit;
+     border is optional
+     border-bottom:1px solid #444;
+     cursor: pointer;
+} 
 
+ #readLink {
+     background:none!important;
+     color:blue;
+     text-decoration: underline;
+     border:none;
+     padding:0!important;
+     font: inherit;
+     border is optional
+     border-bottom:1px solid #444;
+     cursor: pointer;
+} 
